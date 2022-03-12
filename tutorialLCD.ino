@@ -34,7 +34,7 @@ uint16_t read16(File f);
 uint32_t read32(File f);
 
 void setup() {
-  Serial.begin(9600); //Memulai Serial
+  Serial.begin(9600); //Memulai komunikasi Serial
   Serial.println(F("TFT LCD test"));
 
 #ifdef USE_ADAFRUIT_SHIELD_PINOUT
